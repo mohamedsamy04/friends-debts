@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ديون الاصدقاء</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>إضافة صديق</h1>
+        <div class="input-group">
+            <input type="text" id="friend-name" placeholder="أدخل اسم الصديق...">
+            <input type="number" id="amount" placeholder="أدخل المبلغ">
+            <select id="transaction-type">
+                <option value="ديون">ديون</option>
+                <option value="مستحقات">مستحقات</option>
+            </select>
+            <button id="add-friend-btn"><i class="fas fa-plus"></i> إضافة</button>
+        </div>
+        <ul id="friend-list"></ul>
+    </div>
+    
+    <footer>
+        Made by <a href="https://www.facebook.com/profile.php?id=100029070002125&mibextid=LQQJ4d">Mohamed Samy</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
